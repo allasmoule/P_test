@@ -1,7 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -a dist/. $DEPLOYPATH
-    - /bin/cp -f dist/.htaccess $DEPLOYPATH
+    - /bin/mkdir -p /home/thecampu/git.thecampusvoice.info/
+    - /bin/cp -R /home/thecampu/repositories/P_test/dist/. /home/thecampu/git.thecampusvoice.info/
